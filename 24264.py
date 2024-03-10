@@ -1,2 +1,5 @@
 a = int(input())
-print(f"{a*a}\n2")
+sum = 0
+for i in range(1,a):
+    sum += i
+print(f"{sum}\n2")
